@@ -1,0 +1,28 @@
+.percentage-double-circle .CircularProgressbar-trail {
+    stroke-width: 2;
+}
+
+/* Default */
+.circular-progress-bar-left .CircularProgressbar-path {
+    stroke: #0fb1ff !important;
+}
+
+.circular-progress-bar-left .CircularProgressbar-trail {
+    stroke: #0fb1ff !important;
+}
+
+.circular-progress-bar-right .CircularProgressbar-path {
+    stroke: #fbca09 !important;
+}
+
+.circular-progress-bar-right .CircularProgressbar-trail {
+    stroke: #fbca09 !important;
+}
+
+.percentage-circle .CircularProgressbar-path {
+    stroke: #fbca09 !important;
+}
+
+.percentage-circle .CircularProgressbar-trail {
+    stroke: #181c49 !important;
+}

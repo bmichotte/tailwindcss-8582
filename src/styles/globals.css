@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Cambay:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap);
+
+@tailwind base;
+@import 'nprogress/nprogress.css';
+@import 'react-image-crop/dist/ReactCrop.css';
+@import 'react-toastify/dist/ReactToastify.css';
+@import './percentage-circle.css';
+@import 'tippy.js/dist/tippy.css';
+@import 'tippy.js/themes/light.css';
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-primary: 15 42 135;
+        --color-secondary: 255 255 255;
+        --color-tertiary: 15 128 255;
+    }
+    .theme-jti {
+        --color-primary: 224 60 49;
+        --color-secondary: 255 255 255;
+        --color-tertiary: 15 128 255;
+    }
+}
+
+@layer utilities {
+    .text-shadow {
+        text-shadow: -2px 1px 6px rgba(0, 0, 0, 0.6);
+    }
+
+    .text-shadow-md {
+        text-shadow: 0 4px 8px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0);
+    }
+
+    .text-shadow-lg {
+        text-shadow: 0 15px 30px rgba(0, 0, 0, 0.11), 0 5px 15px rgba(0, 0, 0, 0);
+    }
+
+    .text-shadow-none {
+        text-shadow: none;
+    }
+}
